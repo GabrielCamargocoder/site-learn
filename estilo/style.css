@@ -49,7 +49,7 @@ div{
     height: 130px;
     margin-right: 10px;
     margin-left: 40px;
-    margin-top: 120px;
+    margin-top: 200px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
@@ -57,18 +57,21 @@ div{
     
     
     
-}
-
-#empreend{
-
-    background: url(../imagens/imagem_empreend-p.jpg) no-repeat center center;
     
 }
 
-#market{
+#imgempred{
+   
+    background: url(../imagens/imagem_empreend-p.jpg) no-repeat center center;
+    
+   
+    
+}
+
+#imgmakt{
     background: url(../imagens/imagem_marketing-p.jpg) no-repeat center center;
 }
 
-#ti{
+#imgtec{
     background: url(../imagens/imagem_programação-p.jpg) no-repeat center center;
 }
