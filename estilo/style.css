@@ -9,25 +9,17 @@
 
     #027368  clara */
 
-main{
-    background-color: black;
-    width: 99vw;
-    height: 95vh;
-    color: white;
-}
 
-main h2{
-    margin-top: 60px;
-    width: 200px;
-}
 nav{
     text-align: right;
     margin-right: 300px;
+    padding-bottom: 10px;
     
 }
 
 nav a{
     margin: 10px;
+    
 
 }
 
@@ -35,8 +27,14 @@ div{
     margin: 10px;
     display: inline;
 } 
+
+header{
+    margin-bottom: 10px;
+}
+
 header h1{
     text-align: center;
+
 
     
 }
@@ -52,10 +50,23 @@ header p {
     color: white;
     border-radius: 10px;
     margin: auto;
-    margin-top: -255px;
+    margin-top: -260px;
     
 }
+main{
+    background-color: black;
+    width: 99vw;    
+    height: 99vh;
+    color: white;
+}
 
+main h2{
+    margin-top: 60px;
+    width: 200px;
+}
+main h1{
+    padding: 10px;
+}
 main nav > a{
     display: block;
     margin: 20px;
@@ -91,12 +102,18 @@ main nav > a:hover{
 
 footer #redes{
     font-size: 1.2em;
+    
 
 }
-
+footer > div> ul>li{
+    margin: 5px;
+}
 footer > p{
     text-align: right;
     font-size: 1.2em;
-    margin-right: 200px
+    margin-top: -60px;
+    margin-right: 200px;
+  
+
 
 }
