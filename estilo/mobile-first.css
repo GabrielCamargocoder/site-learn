@@ -1,0 +1,57 @@
+@charset 'UTF-8';
+
+/* rgb(0, 71, 112)
+    #000e19
+    #01080E
+     #041c31 */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    width:100vw;
+    height: 100vh;
+}
+
+header{
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+header nav{
+    width: 100vw;
+    margin-bottom: 100px;
+    
+    
+}
+
+header > nav > a{
+    padding: 10px;
+    text-decoration: none;
+
+
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+main h1{
+
+    text-indent: 80px;
+    width: 500px;
+    background-color: grey;
+    margin-bottom: 120px;
+}
+
+main nav#opcoes{   
+    width: 200px;
+    height: 100px;
+    
+}
