@@ -13,6 +13,7 @@
 body{
     width:100vw;
     height: 100vh;
+    position: relative;
 }
 
 header{
@@ -23,9 +24,24 @@ header{
     
 }
 
+header  h1{
+
+   
+}
+
+header p{
+    margin-bottom: 20px;
+}
+
 header nav{
-    width: 100vw;
+    display: block;
+    width: 400px;
     margin-bottom: 100px;
+    background-color: grey;
+    margin-right: 100px;
+    text-align: right;
+    
+    
     
     
 }
@@ -33,6 +49,7 @@ header nav{
 header > nav > a{
     padding: 10px;
     text-decoration: none;
+  
 
 
 }
@@ -45,13 +62,68 @@ main{
 main h1{
 
     text-indent: 80px;
-    width: 500px;
+    width: 600px;
     background-color: grey;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 main nav#opcoes{   
     width: 200px;
-    height: 100px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: -40px;
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
     
+    
+}
+
+main > nav > a{
+    display: inline-block;
+    margin-bottom: 80px;
+    text-decoration: none;
+    text-align: center;
+   
+    
+}
+/*main >div#curso > div#img{
+    background: url(../imagens/imagem_empreend-p.jpg) no-repeat;
+    background-position: center center;
+    height: 200px;
+    background-size: cover;
+    display: block;
+    background-color: black;
+
+}*/
+main div#curso{
+    display: block;
+    width: 350px;
+    
+    background-color:gray;
+    margin: auto;
+    margin-top: 200px;
+    
+   
+}
+
+main > div#curso > p#conteudo{
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    
+
+}
+
+footer{
+    width: 75vw;
+    margin-top: 100px;
+    
+}
+
+footer > p{
+
+    text-align: right;
+    background-color: grey;
 }
