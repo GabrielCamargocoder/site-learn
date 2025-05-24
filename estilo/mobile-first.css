@@ -60,7 +60,7 @@ main{
 }
 
 main h1{
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-indent: 10px;
     width: 320px;
     background-color: grey;
@@ -72,7 +72,7 @@ main nav#opcoes{
     height: 300px;
     margin: auto;
     margin-bottom: -40px;
-    background-color: grey;
+  
     padding: 10px;
     text-align: center;
     
@@ -81,9 +81,17 @@ main nav#opcoes{
 
 main > nav > a{
     display: inline-block;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+    margin-left: -30px;
     text-decoration: none;
     text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-radius:10px 0px ;
+    width: 200px;
    
     
 }
@@ -94,15 +102,18 @@ main >div#curso > div#img{
     background-size: cover;
     display: block;
     background-color: black;
+   
 
 }
 main div#curso{
     display: block;
     width: 350px;
-    
+    overflow: hidden;
     background-color:gray;
     margin: auto;
     margin-top: 200px;
+    border-radius: 10px;
+    
     
    
 }
@@ -112,8 +123,19 @@ main > div#curso > p#conteudo{
     width: 300px;
     margin: auto;
     padding: 10px;
+    margin-top: 10px;
     
 
+}
+main>div#curso >p#conteudo > a{
+    display: block;
+    width: 80px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 190px;
+    text-decoration: none;
+    background-color: rgb(79, 79, 79);
+    color: white;
 }
 
 footer{
@@ -126,9 +148,9 @@ footer{
 footer> div#redes > ul > li{
     list-style: none;
     padding: 10px;
-    margin-left: 80px;
+    margin-left: 40px;
     
-    width: 280px;
+    
   
    
 
@@ -137,7 +159,7 @@ footer> div#redes > ul > li{
 footer > p{
     margin-top: -65px;
     text-align: right;
-    margin-right: 100px;
+    margin-right: 40px;
     
     
     
