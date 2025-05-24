@@ -62,7 +62,7 @@ main{
 main h1{
     font-size: 1.5em;
     text-indent: 10px;
-    width: 400px;
+    width: 320px;
     background-color: grey;
     margin-bottom: 100px;
 }
@@ -87,7 +87,7 @@ main > nav > a{
    
     
 }
-/*main >div#curso > div#img{
+main >div#curso > div#img{
     background: url(../imagens/imagem_empreend-p.jpg) no-repeat;
     background-position: center center;
     height: 200px;
@@ -95,7 +95,7 @@ main > nav > a{
     display: block;
     background-color: black;
 
-}*/
+}
 main div#curso{
     display: block;
     width: 350px;
@@ -118,14 +118,18 @@ main > div#curso > p#conteudo{
 
 footer{
     width: 100vw;
-    margin-top: 100px;
+    margin-top: 300px;
     
     
 }
 
 footer> div#redes > ul > li{
-    
+    list-style: none;
     padding: 10px;
+    margin-left: 80px;
+    
+    width: 280px;
+  
    
 
 }
@@ -133,6 +137,8 @@ footer> div#redes > ul > li{
 footer > p{
     margin-top: -65px;
     text-align: right;
-   
+    margin-right: 100px;
+    
+    
     
 }
