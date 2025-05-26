@@ -6,3 +6,42 @@
     #05213a cor main
     #01080E cor footer
      */
+
+
+@media screen and (min-width: 992px) {
+
+    header p{
+        font-size: 1.5em;
+    }
+    
+    main h1{
+        width:500px;
+        font-size: 2em;
+    }
+
+    main nav#opcoes{   
+    width: 900px;
+    height: 200px;
+    background-color: grey;
+}
+
+    main > nav >a{
+        margin-left:10px;
+    }
+
+
+    footer{
+        font-size: 1.2em;
+    }
+
+    footer > div#redes{
+
+        width: 100px;
+        margin: auto;
+    }
+
+    footer > p{
+        width: 100px;
+        margin: auto;
+    }
+ }
