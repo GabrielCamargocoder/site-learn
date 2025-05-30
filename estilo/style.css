@@ -10,9 +10,7 @@
 
 @media screen and (min-width: 992px) {
 
-    header p{
-        font-size: 1.5em;
-    }
+   
 
     header nav{
         
@@ -25,8 +23,8 @@
 
     main nav#opcoes{   
     width: 900px;
-    height: 200px;
-    background-color: grey;
+    height: 100px;
+        
 }
 
     main > nav >a{
