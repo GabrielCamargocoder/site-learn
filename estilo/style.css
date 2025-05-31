@@ -17,21 +17,31 @@
      
         
     }
+
+    main > div.conteudo{
+        
+    }
      main > div#menu> nav > a{
         padding: 40px;
         width: 200px;
         text-align: center;
      }
    
-
+    main > div.conteuo > div#img{
+        float: left;
+        
+        
+    }
      main>div.conteudo{
-        width: 60vw;
+       
+        width: 40vw;
         border-radius: 5px;
+        
      }
 
      main > div.conteudo > div#descricao{
+        float: right;
 
-        
      }
  }
    

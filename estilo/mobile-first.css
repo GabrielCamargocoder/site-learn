@@ -106,6 +106,7 @@ main >div.conteudo > div#img{
 
 }
 main div.conteudo{
+    
     display: block;
     width: 350px;
     overflow: hidden;
